@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestJob.Cqrs\TestJob.Cqrs.csproj" />
+    <ProjectReference Include="..\TestJob.Math.Cqrs\TestJob.Math.Cqrs.csproj" />
+    <ProjectReference Include="..\TestJob.Messages\TestJob.Messages.csproj" />
+    <ProjectReference Include="..\TestJob.Messaging\TestJob.Messaging.csproj" />
+  </ItemGroup>
+</Project>
